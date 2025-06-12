@@ -5,8 +5,12 @@
   "server": true,
   "ui": true,
   "requiredPlugins": [
-    "navigation"
+    "navigation", "opensearchDashboardsReact"
   ],
-  "optionalPlugins": ["dataSource","dataSourceManagement","contentManagement"],
+  "optionalPlugins": [
+    "dataSource",
+    "dataSourceManagement",
+    "contentManagement"
+  ],
   "supportedOSDataSourceVersions": ">=2.8.0"
 }
